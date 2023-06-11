@@ -9,4 +9,4 @@ Rotas:
 * `/`: livre
 * `/confidencial`: deve inicialmente redirecionar para o formulário padrão de login
 
-Toda a lógica de autenticação está no arquivo [`SegurancaConfig.java`](https://github.com/EdyKnopfler/spring-boot-udemy-spring-security-login-forms/blob/main/src/main/java/com/derso/security/config/SegurancaConfig.java).
+Toda a lógica de autenticação e credenciais simuladas estão no arquivo [`SegurancaConfig.java`](https://github.com/EdyKnopfler/spring-boot-udemy-spring-security-login-forms/blob/main/src/main/java/com/derso/security/config/SegurancaConfig.java).
