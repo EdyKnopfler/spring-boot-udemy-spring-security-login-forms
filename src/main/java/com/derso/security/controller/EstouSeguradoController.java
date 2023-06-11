@@ -17,4 +17,12 @@ public class EstouSeguradoController {
 		return resposta;
 	}
 	
+	@GetMapping("/confidencial")
+	public Map<String, String> confidencial() {
+		HashMap<String, String> resposta = new HashMap<>();
+		resposta.put("status", "ok");
+		resposta.put("mensagem", "Informação confidencial!");
+		return resposta;
+	}
+	
 }
