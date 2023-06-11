@@ -6,7 +6,12 @@ Testando o Spring Security com formulário de login. A aplicação sendo constru
 
 Rotas:
 
-* `/`: livre
-* `/confidencial`: deve inicialmente redirecionar para o formulário padrão de login
+* Providas pelo Spring Security
+  * `/login`
+  * `/logout`
+* Da aplicação
+  * `/`: livre
+  * `/confidencial`: deve inicialmente redirecionar para o formulário padrão de login
 
 Toda a lógica de autenticação e credenciais simuladas estão no arquivo [`SegurancaConfig.java`](https://github.com/EdyKnopfler/spring-boot-udemy-spring-security-login-forms/blob/main/src/main/java/com/derso/security/config/SegurancaConfig.java).
+
